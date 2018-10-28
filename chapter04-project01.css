@@ -1,0 +1,48 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+}
+
+/* Table CSS */
+table {
+	border: ridge;
+	margin: 2em 2em 2em 50em
+}
+
+caption {
+	background-color: #6B8E23;
+	padding: .5em;
+}
+
+td {
+	background-color: #F5F5F5;
+	border: groove;
+	padding: 3px;
+	text-align: center;
+}
+
+td:hover{
+	background-color: #87CEEB;
+	color: white;
+}
+
+tr:first-child{
+	font-size: 50%;
+}
+
+tr:last-child{
+	font-size: 75%;
+}
+
+/* Form CSS */
+form{
+	margin: 0 48em 0 45em;
+	background-color: 	#D2B48C;
+	font-weight: bold;
+	padding: .5em;
+}
